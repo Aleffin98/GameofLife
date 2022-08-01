@@ -1,0 +1,15 @@
+TO-DOs
+
+Darstellung Steine, Spielfeld
+    - Controller: Abfrage Status der Steine(stones [][], Stein.istamLeben())
+    - View: Darstellung der Steine anhand des Status
+    -
+
+Anzeige der Anzahl der verstorbenen Steine
+    - Model: In Model counter isDead einbauen und in Stein.lebeWeiter() Counter erhöhen
+    - View: Darstellung des Counters isDead
+
+Anzeige der Vergangenen Zeit in Schritten
+    - Model: In Model counter round einbauen und in Spielfeld.naechsterSpielzug() erhöhen
+    - View: Darstellung des Counters round
+
